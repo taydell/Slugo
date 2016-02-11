@@ -1,0 +1,1101 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url('/content/fonts/webfonts/leaguegothic-regular-webfont.eot');
+    src: url('/content/fonts/webfonts/leaguegothic-regular-webfont.eot') format('embedded-opentype'),
+    url('/content/fonts/webfonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+    url('/content/fonts/webfonts/leaguegothic-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: QuadratSerial;
+    src: url('../fonts/webfonts/QuadratSerial.otf');
+}
+/*---------------------TEMPLATE EDITS START-----------------------*/
+
+html, body {height:100%;}
+.page
+{
+    background-color: #292c2f;
+}
+.pageGallery
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    /*background-color: #009dff;*/
+}
+.page ul li a:focus
+{
+    background-color: transparent;
+}
+.page ul li a:active
+{
+    background-color: transparent;
+}
+
+.navbarBackgroundTile
+{
+    /*background-image: url("../../content/images/leaguePro.jpg");*/
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+    overflow: hidden;
+}
+.navbarBackgroundTile img
+{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+
+#login
+{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "QuadratSerial";
+}
+
+#login:hover
+{
+    color: #ffffff;
+    background-color: transparent;
+}
+
+#logo
+{
+    color: #ffffff;
+}
+
+#logo:hover
+{
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+}
+
+#links > li a
+{
+    color: #ffffff;
+}
+
+#links > li a:hover
+{
+    background-color: transparent;
+    color: white;
+}
+.loginUser > li a:hover
+{
+    background-color: transparent;
+    color: white;
+}
+#selu
+{
+    position: relative;
+}
+
+#selu > li a
+{
+    color: white;
+}
+
+#selu > li a:hover
+{
+    background-color: transparent;
+    color: white;
+}
+
+.hvr-grow
+{
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    text-decoration: none;
+    box-shadow: #269abc;
+}
+/*------ navbar user edits end ------*/
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: rgba(162, 162, 162, 0.61);
+
+}
+
+/*------ navbar edits start ------*/
+.nav
+{
+    background-color: transparent;
+}
+.navbarReposition
+ {
+     background-color: rgba(0, 0, 0, 1.0);
+     margin-left: 1%;
+     margin-right: 1%;
+ }
+
+.navbar
+{
+    font-family: QuadratSerial;
+    padding: 0px 10px 0px 10px;
+    width: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+.navbarBackColor
+{
+    background-color: rgba(0, 0, 0, 0.67);
+}
+.navbar-brand
+{
+    padding-left: 5px;
+    color: #ffffff;
+    font-size: 300%;
+}
+.navbarUser
+{
+    background-color: transparent;
+}
+.navbarUser:active, .navbarUser:hover
+{
+    background-color: rgba(162, 162, 162, 0);
+}
+.navbarUser:focus, .navbarUser li a:active
+{
+    background-color: rgba(162, 162, 162, 0.61);
+}
+.navbarUser:focus, .navbarUser li a:active
+{
+    background-color: rgba(162, 0, 23, 0.61);
+}
+.navbarUserAvatarImage
+{
+    padding-left: 0px;
+    height: 50px;
+    width: 50px;
+}
+.userBarMenuHover:hover
+{
+    background-color: rgba(162, 0, 23, 0.61);
+}
+
+.nav .navbar-nav . navbar-right
+{
+    height: 50px;
+    background-color: green;
+}
+.dropdown-menu
+{
+    background-color: rgba(162, 162, 162, 0.61);
+    border-radius: 0px;
+}
+.dropdown-menu > li > a:hover
+{
+    background: #a32727 none;
+}
+.navbarBackColorContentBar
+{
+    background-color: rgba(162, 162, 162, 0.90);
+}
+.navbarContentBar
+{
+    height: 30px;
+    background-color: rgba(162, 162, 162, 0.90);
+}
+
+input[text]
+{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 26px;
+    border: 0px #0016b0;
+    border-bottom-width: 1px;
+    background-color: #008200;
+}
+.searchIndex
+{
+    padding-left: 80px;
+}
+/*------ navbar user edits end ------*/
+
+/*------ navbar edits end ------*/
+
+
+/*-------------------page edits start-------------------------*/
+
+
+#currentPage
+{
+    background-color: rgba(123, 104, 238, 0.54);
+}
+
+/*-------------------page edits end-------------------------*/
+
+/*-------------------games edits start-------------------------*/
+
+.tileBlock
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.tileBlock img
+{
+    max-width: 100%;
+    height: 250px;
+    width: inherit;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.gamesStructure
+{
+    background-color: #464646;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0px solid #ccc;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+}
+.imageStructure
+{
+    background-color: transparent;
+    border: 0px;
+}
+#join
+{
+    background-color: green;
+    color: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+#twitch
+{
+    background-color: purple;
+    color: #ffffff;
+}
+
+#brackets
+{
+    background-color: #000000;
+    color: #ffffff;
+}
+/*-------------------games edits end-------------------------*/
+
+/*------ footer edits start ------*/
+.footerStyles
+{
+    background-color: #292c2f;
+    color: white;
+    position: relative;
+}
+.footerContainer
+{
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: red;
+}
+.footerVertical
+{
+
+    margin-top: auto;
+    height: 150px;
+    background-color: red;
+}
+.footerVertical ul
+{
+    background-color: grey;
+    width: 110px;
+    margin-top: 10%;
+    list-style: none;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footerVertical ul li
+{
+    width: 70px;
+    overflow: auto;
+}
+.footerVertical ul li a
+{
+    color: white;
+}
+.footerContent
+{
+    margin-top: 0px;
+    height: 100%;
+    background-color: green;
+}
+.footerLogo
+{
+    height: 100%;
+    background-color: orange;
+}
+
+/*------ footer edits end ------*/
+/*--------------------------------------------*/
+
+/*--------------------------------------------*/
+
+
+/*--------------------------------------------*/
+table {
+    background-color: rgba(225, 225, 225, 0);
+    border: ridge;
+    border-color: rgba(71, 71, 71, 0);
+    border-width: thin;
+    border-collapse: collapse;
+    font: small arial, helvetica, sans-serif;
+}
+
+td p{
+    height: 20px;
+}
+
+td {
+
+    vertical-align: middle;
+    width: 10em;
+    margin: 0;
+    padding: 0;
+}
+p.top_cell{
+
+    border-collapse: collapse;
+    color: #cdcdcd;
+    background-color: #818181;;
+    border-top: solid 2px #2e2e2e;
+    border-right: solid 2px #2e2e2e;
+    margin: 0;
+    padding-top: 1px;
+
+}
+
+p.bottom_cell{
+
+    align-content: center;
+    color: #cdcdcd;
+    background-color: #727272;
+    border-bottom: solid 2px #2e2e2e;
+    border-right: solid 2px #2e2e2e;
+    margin: 0;
+    padding-bottom: 1px;
+
+
+}
+p.final_cell{
+    color: #cdcdcd;
+    background-color: #727272;
+    border: solid 2px #2e2e2e;
+    margin: 0;
+
+}
+.player_button{
+    align-content: center;
+    background: none;
+    font-size: 13px;
+    color: white;
+    border:thin;
+
+}
+
+#TournamentBracket {
+    margin-top: 30px;
+    position: relative;
+    left: 0px;
+}
+
+
+/*---------------------admin start-----------------------*/
+
+.navbarBackColorAdmin
+{
+    background-color: #333333;
+    z-index: 1;
+}
+ul
+{
+    list-style-type: none;
+}
+.navBarVerticalAdmin
+{
+    color: black;
+    background-color: #999999;
+    float: left;
+    width: 60px;
+    height: inherit;
+    padding: 0px;
+}
+.navBarVerticalAdmin > li a
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-size: 200%;
+    padding: 5px;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #666666;
+    color: white;
+}
+
+.navBarVerticalAdmin > li a:hover
+{
+    background-color: #d45500;
+}
+.contentPage .AdminContainer
+{
+    padding-left: 100px;
+    padding-top: 15px;
+    height: inherit;
+    width: inherit;
+}
+#dimScreen
+{
+    width: 100%;
+    height: 100%;
+    /**
+    position: fixed;
+    will not let page scroll
+    find out how to make it static without breaking
+    **/
+}
+
+
+
+
+/*---------------------admin end-----------------------*/
+
+.tile
+{
+    height: 200px;
+    width: 600px;
+    background-color: lightblue;
+    margin-top: 10px;
+
+}
+.tile-image
+{
+    width: 250px;
+    height: 250px;
+}
+
+.tile .tileSideDelete
+{
+    height: inherit;
+    width: 25px;
+    background-color: red;
+}
+
+.tileSideDelete
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tileContentImage
+{
+    height: 100px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+
+}
+.tileContentImage img
+{
+    max-width: 100%;
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+.userImage
+{
+
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    float: left;
+    position: relative;
+
+}
+.userImage > img
+{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.userText
+{
+
+    background-color: green;
+    height: 200px;
+    width: 400px;
+    float: right;
+
+
+}
+.textBlock
+{
+
+    background-color: grey;
+    height: 90%;
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.textBlock > p
+{
+
+    margin: 0;
+    padding-left: 5px;
+}
+
+
+
+a .deleteButton
+{
+    float: left;
+    background-color: red;
+    width: 40px;
+    height: 200px;
+
+}
+.gameImage
+{
+
+    background-color: purple;
+    height: 200px;
+    width: 560px;
+    float: right
+
+}
+.gameImage > img
+{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    overflow: hidden;
+}
+iframe
+{
+    height: 1000px;
+    border: 0px;
+}
+
+.frameGallery
+{
+    height: 5000px;
+    width: 100%;
+
+}
+
+.galleryPage
+{
+    height: auto;
+    width: 100%;
+}
+.galleryStructure
+{
+    height: 100%;
+    width: 100%;
+    background: darkolivegreen;
+}
+.title
+{
+
+    text-align: center;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+.title > h1
+{
+
+
+    margin: 0px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+
+}
+
+.titleGallery
+{
+
+}
+
+.title
+{
+
+}
+.title > hr
+{
+
+    border-color: #333333;
+    margin: 0px;
+    margin-bottom: 15px;
+
+}
+
+.fullScreen
+{
+    padding-left: 0;
+    padding-right: 0;
+    height: 1000px;
+}
+
+.sidebar
+{
+    background-color: #292c2f;
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 100%;
+    padding-bottom: 10px;
+    border: 0px solid;
+    width: 300px;
+    float: left;
+
+}
+.sidebar > h1 a
+{
+    display: block;
+    text-align: center;
+    column-rule: white;
+    background-color: #333333;
+    padding: 10px;
+    margin: 0;
+    font-size: 50%;
+}
+.sidebar > h1 a:hover
+{
+    background-color: #67083b;
+    text-decoration: none;
+}
+.sidebar h1 a
+{
+    margin: 0px;
+    color: #ffffff;
+    height: 100%;
+}
+
+.sidebar h1
+{
+
+    margin: 0px;
+
+}
+
+.sidebar a
+{
+    margin: auto;
+
+}
+
+html,
+body,
+.container,
+.div1,
+.div2 {
+    height:100%;
+}
+
+
+.cmView
+{
+    background-color: darkolivegreen;
+    float: left;
+    width: 1100px;
+
+}
+.imageTile
+{
+    border-radius: 0;
+    border: 0 hotpink;
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0;
+    height: 300px;
+    width: 300px;
+}
+.caption > h3
+{
+    margin: 0;
+    text-align: center;
+}
+.galleryBlock
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*--------------------------------------------*/
+/*---------------------TEMPLATE EDITS END-----------------------*/
+
+body {
+    height: 100%;
+    background-color: #292c2f;
+    color: #ffffff;
+}
+
+#form {
+    color: white;
+}
+
+#submit {
+    color: #000000;
+}
+
+#bracketButtons {
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+}
+
+.bracketContainer .col-md-10 {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+.bracketContainer .col-md-2 {
+    height: auto;
+    overflow: hidden;
+
+}
+
+.bracketContainer .wireframe-box {
+    background-color:#37393C;
+    color:#fff;
+    height: 100%;
+    text-align: left;
+    overflow-x: hidden;
+    border-radius: 5px;
+}
+
+.wireframe-box * {
+    text-align: left;
+    border-radius: 5px;
+}
+
+#aside h1 {
+    background: #ffffff;
+    color: #337ab7;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 35px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.wireframe-box h2 {
+    text-decoration: underline;
+}
+
+.wireframe-box ol {
+    text-align: left;
+    font-size: 20px;
+}
+
+#banner img, #banner h1 {
+    display: inline-block;
+}
+
+#banner #center {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#banner {
+    text-align: center;
+    background-color: #292c2f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Bracket {
+    overflow: hidden;
+    height: 600px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 5px;
+}
+
+#joinGame {
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#joinGame:focus {
+    outline: none;
+}
+
+#dropGame {
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+#dropGame:focus {
+    outline: none;
+}
+
+.popup {
+    text-align: center;
+}
+
+.popup .btn-group-justified {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.popup #yes {
+    padding: 0.4em 1em;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#yes:focus {
+    outline: none;
+}
+
+.popup #create {
+    padding: 0.4em 1em;
+    margin-bottom: 0;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#create:focus {
+    outline: none;
+}
+
+.popup #close {
+    background-color: #c0c0c0;
+    padding: 0.4em 1em;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#close:focus {
+    outline: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+#navbarPOS {
+    font-size: 14px;
+}
+
+.mg-image a > img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+    max-width: 100%;
+}
+.mg-image:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+.mg-image {
+
+  overflow: hidden;
+    margin: 0px;
+}
+.thumbnail
+{
+
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0;
+    border-color: transparent;
+    border-style: none;
+}
+
+#bracketPageHalo #Bracket {
+    background: url('http://1080phdwallpaper.com/wp-content/uploads/Game-2/halo_4_master_chief-1920x1080.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+}
+
+#bracketPageLeague #Bracket {
+    background: url('http://minecraftxboxs.com/wp-content/uploads/2014/06/hd-wallpaper-1080p-league-of-legends.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+}
+
+#bracketPageCounter #Bracket {
+    background: url('http://topgamewallpapers.com/wp-content/uploads/2014/06/Counter+Strike+1_16x9.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+}
+
+#bracketPageMario #Bracket {
+    background: url('http://mii-gamer.com/wp-content/uploads/2014/05/mario-kart-8-21.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+}
+
+.homePadding
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.galleryPadding
+{
+    margin: 5px;
+}
+
+.accountContainer
+{
+    width: 600px;
+    min-height: 200px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.accountImage
+{
+}
+
+.accountImage
+{
+    display: inline-block;
+    height:inherit;
+    vertical-align: top;
+}
+
+.accountImage > img
+{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.textContainer
+{
+    text-align: center;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: auto;
+    width: 375px;
+    /*background: green;*/
+    /*border: 1px solid green;*/
+    vertical-align: middle;
+}
+.text
+{
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 0px;
+
+}
+.textDrop
+{
+    color: #ffffff;
+    background-color: #ffffff;
+}
+.btn
+{
+    color: #333333;
+    border: solid #333333 thin;
+}
+.btn:hover
+
+{
+    color: #ffffff;
+    border: solid #333333 thin;
+}
+.btn-default
+{
+    background: darkred none;
+    color: #ffffff;
+
+}
+.btn .btn-block
+{
+    margin-bottom: 0px;
+}
+.well
+{
+    border-radius: 0px;
+    color: #333333;
+}
+.panel > .panel-heading {
+    background: transparent none;
+    color: white;
+
+}
+.panel-heading
+{
+    padding: 0;
+    border: 0px;
+}
+.panel
+{
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+/*--------------------------------------------*/
+
+/*--------------------------------------------*/
+
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+

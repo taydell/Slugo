@@ -1,0 +1,55 @@
+.accountContainer
+{
+	width: 600px;
+	height: 200px;
+	background-color: lightblue;
+	border-radius: 10px;
+}
+.accountImage
+{
+}
+
+.accountImage 
+{
+    display: inline-block;
+    height:inherit;
+	vertical-align: top;
+}
+
+.accountImage > img
+{
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+	object-fit: cover;
+	border-radius: 10px;
+	
+}
+
+.textContainer 
+{
+	text-align: center;
+    display: inline-block;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+    height: auto;
+	width: 375px;
+	background: green;
+    border: 1px solid green;
+	vertical-align: top;
+}
+.text
+{
+	color: pink;
+
+	border-radius: 10px;
+	border-color: pink;
+	border-width: thin;
+	border: solid;
+	
+}
+ul
+{
+	padding-left: 0;
+}

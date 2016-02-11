@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SLUGO - <?=$pageTitle ?> </title>
+	<link rel="stylesheet" href="../../../content/css/slugoNEW.css">
+	<link rel="stylesheet" href="../../../content/css/mod.css">
+</head>
+
+<body>
+	
+<div class="accountContainer">
+    	<div class="accountImage">
+			<img src="../../../content/accountImages/money.JPG">
+		</div>
+    	<div class="textContainer">
+			<div class="text">
+				<ul style="padding-left:0;">
+					<li><?=$a[$aboutDataArrayPosition]['title']?></li>
+					<li><?=$a[$aboutDataArrayPosition]['name']?></li>
+				</ul>
+				
+			</div>
+			<div class="text">
+					<div id="<?=$aboutDataArrayPosition?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <div class="col-md-4" style="color: #333333">
+                                <?=$a[$aboutDataArrayPosition]['bio']?>
+                            </div>
+                        </div>
+                    </div>
+			</div>
+		</div>
+</div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../../content/js/bootstrap.js"></script>
+</body>
+</html>

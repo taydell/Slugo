@@ -1,0 +1,69 @@
+table {
+    background-color: #e1e1e1;
+    border: ridge;
+    border-color: #474747;
+    border-width: thin;
+    border-collapse: collapse;
+    font: small arial, helvetica, sans-serif;
+}
+
+td p{
+    height: 20px;
+}
+
+td {
+
+    vertical-align: middle;
+    width: 10em;
+    margin: 0;
+    padding: 0;
+}
+p.top_cell{
+
+    border-collapse: collapse;
+    color: #cdcdcd;
+    background-color: #818181;;
+    border-top: solid 2px #2e2e2e;
+    border-right: solid 2px #2e2e2e;
+    margin: 0;
+    padding-top: 1px;
+
+}
+
+p.bottom_cell{
+
+    align-content: center;
+    color: #cdcdcd;
+    background-color: #727272;
+    border-bottom: solid 2px #2e2e2e;
+    border-right: solid 2px #2e2e2e;
+    margin: 0;
+    padding-bottom: 1px;
+
+
+}
+p.final_cell{
+    color: #cdcdcd;
+    background-color: #727272;
+    border: solid 2px #2e2e2e;
+    margin: 0;
+
+}
+.player_button{
+    align-content: center;
+    background: none;
+    font-size: 13px;
+    color: white;
+    border:thin;
+
+}
+
+#TournamentBracket {
+    margin-top: 30px;
+    position: relative;
+    left: 0px;
+}
+
+#bracketPage {
+    position: relative;
+}
